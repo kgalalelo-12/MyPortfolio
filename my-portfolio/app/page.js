@@ -21,23 +21,23 @@ export default function Home() {
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-10 px-6 py-16">
         <div>
-          <p className="tracking-widest text-gray-500">HAY! THERE</p>
+          <p className="tracking-widest text-gray-500">HELLO THERE!</p>
           <h2 className="text-5xl font-bold my-4">I AM KGALALELO!</h2>
           <p className="text-lg text-gray-600 mb-6">
-            A PROFESSIONAL DEVELOPER
+            A  JUNIOR FULLSTACK DEVELOPER
           </p>
           <button className="border px-6 py-2 hover:bg-black hover:text-white transition">
-            HIRE ME
+           ABOUT ME 
           </button>
         </div>
 
         <div className="flex justify-center">
           <Image
-            src="https://media.licdn.com/dms/image/v2/D4E03AQFL_5Pynhl5vQ/profile-displayphoto-scale_400_400/B4EZ0k.fl9JAAg-/0/1774441860046?e=1776297600&v=beta&t=y32hEMeBEAC1EJ6U3GU3KpvSDReY2KBhLRwVGsPql_A"
+          src="/Adobe Express - file.png"
             alt="profile"
-            width={350}
-            height={400}
-            className="rounded-xl"
+            width={500}
+            height={500}
+          
           />
         </div>
       </section>
@@ -84,6 +84,9 @@ function Skill({ label, percent }) {
           className="bg-black h-2 rounded"
           style={{ width: `${percent}%` }}
         ></div>
+      </div>
+      <div class="footer">
+
       </div>
     </div>
   );
