@@ -15,7 +15,7 @@ export default function Portfolio() {
 
       {/* Hero Section */}
       <section className="text-center py-20">
-        <h2 className="text-4xl font-bold mb-4">Hi, I'm a Full Stack Developer</h2>
+        <h2 className="text-4xl font-bold mb-4">Hi, I&apos;m a Full Stack Developer</h2>
         <p className="text-gray-400 mb-6">
           I build modern web applications using Next.js and Tailwind CSS
         </p>
